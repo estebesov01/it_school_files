@@ -15,7 +15,7 @@ def addDict(first,second):
     return first
 
 def add(a, b):
-    return a + b4
+    return a + b
 def substract(a, b):
     return a - b
 def multiply(a, b):
