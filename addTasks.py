@@ -66,7 +66,4 @@ class Car:
 w222 = Car('mercedes','w222','2011')
 w222.drive(234)
 print(w222.odometer,w222.fuel)
-            
 
-    
-        
