@@ -33,3 +33,5 @@ def second():
     print(list(zoo_object.__dict__.values()))
     
 second()
+11=+2
+'1'+'1'
