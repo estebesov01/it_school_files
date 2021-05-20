@@ -10,8 +10,8 @@ boot   etc   lib32  lost+found  opt   run   srv       tmp
 cdrom  home  lib64  media       proc  sbin  swapfile  usr
 '''.split()
 
-with open('Работа с файлами/textfiles/directories.txt','w') as file:
+with open('directories.txt','w') as file:
     for i in ds:
         file.write(i + '\n')
-with open('Работа с файлами/textfiles/directories.txt','r+') as file:
+with open('directories.txt','r+') as file:
     print(file.read())

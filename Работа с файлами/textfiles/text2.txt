@@ -1,0 +1,12 @@
+January       18000
+February      32641
+March         28300
+April         11200
+May           21100
+June          19000
+July          8000
+August        72000
+September     12300
+October       17000
+November      25000
+December      30000
