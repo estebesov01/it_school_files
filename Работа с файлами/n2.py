@@ -5,5 +5,5 @@
 login = input("Введите логин : ")
 password = input("Введите пароль : ")
 
-with open('Работа с файлами/users.txt','a') as file:
+with open('Работа с файлами/textfiles/users.txt','a') as file:
     file.write(login + ' ' + password + '\n')

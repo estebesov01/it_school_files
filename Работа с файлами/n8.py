@@ -3,7 +3,7 @@
 # Июль, Сентябрь и Ноябрь и посчитайте среднее 
 # арифмитечское за эти месяца.
 data = dict()
-with open('Работа с файлами/text2.txt','r') as file:
+with open('Работа с файлами/textfiles/text2.txt','r') as file:
     for i in file.readlines():
         linedata = i.split()
         data[linedata[0]] = linedata[1]
