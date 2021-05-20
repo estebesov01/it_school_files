@@ -7,3 +7,4 @@ name_prof = dict()
 for i in range(len(names)):
     name_prof[names[i]]=professions[i]
     print(f'Здравствуйте {names[i]}. Прекрасная профессия - {professions[i]}')
+    
