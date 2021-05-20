@@ -83,3 +83,4 @@ def second1():
     zad2 = lambda d:datetime.datetime(2022,1,1) - (datetime.timedelta(days = d) + datetime.datetime(2021,1,1))
     print(zad2())
     print(ss)
+sixth()
