@@ -1,0 +1,25 @@
+-- 4
+-- select produser_company from produsers  produser_country = 'China';
+
+-- 7
+-- select * from sulpak where product_name like '%m%';
+
+-- 6
+-- select * from kivano where product_name not IN (select product_name from sulpak);
+
+
+-- 8
+-- select * from kivano where product_name in (select product_name from sulpak);
+
+
+-- 12
+-- select produser_company from produsers where produser_id = (select max(produser_id) from produsers);
+
+
+-- 13
+-- UPDATE sulpak SET price = price + 1000 ;
+
+1
+SELECT * FROM kivano where category_id = 1 and price IN (SELECT price from sulpak WHERE category_id = 2);
+2
+SELECT * FROM produsers where produser_company = 'IPhone' and  prodused_date = (SELECT max(prodused_date) from produsers where produser_company = 'IPhone');
