@@ -19,10 +19,11 @@ class Subscriber:
        return f"{self.last_name} {self.first_name}, {self.subs_id}"
 
 
-a = Subscriber(1, 'last', 'first', 'mid','address 1', 1234567, 1, 0, 120, 60)
-b = Subscriber(2, 'last', 'first', 'mid','address 1', 1234567, 1, 0, 0, 160)
-c = Subscriber(3, 'last', 'first', 'mid','address 1', 1234567, 1, 0, 0, 260)
-k = Subscriber(4, 'last', 'first', 'mid','address 1', 1234567, 1, 0, 220, 260)
+a = Subscriber(1, 'Атамбаев', 'Алмаз', 'Шаршенович','Арашан', 1234567, 1, 0, 120, 60)
+b = Subscriber(2, 'Жапаров', 'Садыр', 'Нургожоевич','Кен-Суу', 1234567, 1, 0, 0, 160)
+c = Subscriber(3, 'Бакиев', 'Курманбек', 'Салиевич','Масадан', 1234567, 1, 0, 0, 260)
+k = Subscriber(4, 'Акаев', 'Аскар', 'Акаевич','Кызыл-Байрак', 1234567, 1, 0, 220, 260)
+d = Subscriber(5,'Жээнбеков','Сооронбай','Шарипович','Кара-Кулджа',1234567,1,0,234,400)
 
 subs_list = [a, b, c, k]
 

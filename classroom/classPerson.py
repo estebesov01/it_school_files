@@ -1,19 +1,29 @@
 class Person:
-    def __init__(self, fullName, place, age = 18):
-        self.fullName = fullName
+    def __init__(self,name,age):
+        self.name = name
         self.age = age
-        self.place = place
 
-    def move(self,place):
-        self.place = place
+    def display(self):
+        print(f'Person name: {self.name}')
+        print(f'Person age: {self.age}')
 
-    def talk(self):
-        print(f'{self.fullName} говорит.')
+class Student(Person):
+    def __init__(self, name, age, section):
+        super().__init__(name, age)
+        self.section = section
 
-    def __str__(self):
-        return f'{self.fullName} в городе {self.place} возраст: {self.age}'
+    def displayStudent(self):
+        print(f'Student name: {self.name}')
+        print(f'Student age: {self.age}')
+        print(f'Student section: {self.section}')
 
-me = Person('Estebesov Nursultan','Bishkek',20)
-me.talk()
-me.move('Kara-Kul')
-print(str(me))
+
+P = Person("Tomas Wild", 37)
+
+
+P.display()
+
+
+S = Student("Albert", 23 , "Mathematics")
+
+S.displayStudent()
